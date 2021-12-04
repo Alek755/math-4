@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+	<h4 id="Player1"></h4><span id="Player_Score1"></span>
+	<h4 id="Player2"></h4><span id="Player_Score2"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Math Kuiz Game</h2>
+
+		<h2 id="Player_Kuestion"></h2>
+		<h2 id="Player_Answer"></h2>
+
+		<div id="Output" class="col-lg-4 col-sm-8 col-xs-11">
+		</div>
+
+		<br>
+		<br>
+
+		<h2> Number 1 </h2>
+
+		<input type="text" id="Number_Input_1" class="form-control" placeholder="Number 1">
+
+		<br>
+
+		<h2> Number 2 </h2>
+
+		<input type="text" id="Number_Input_2" class="form-control" placeholder="Number 2">
+
+		<br>
+
+		<button id="Send_Button" class="btn btn-primary" onclick="Send()"> Send </button>
+
+	</center>
+</div>
+
+
+<script src="kuiz_game.js"></script>
+</body>
+</html>
